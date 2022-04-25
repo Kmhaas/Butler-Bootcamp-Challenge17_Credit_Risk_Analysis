@@ -7,7 +7,26 @@ The purpose of this analysis is credit risk is an inherently unbalanced classifi
 
 
 
+
+
+
+
 * ![Naive_random-OS](https://user-images.githubusercontent.com/93004710/164803712-16f3824c-eaf9-4ca8-bbd0-9595bfab2cdc.png)
+
+
+
+
+
+
+
+
+
+
+* Naive Random Oversampling chart above shows a balanced accuracy score of 64% and recall score for high risk 62% and low risk 65%.
+
+
+
+
 
 
 
@@ -19,7 +38,32 @@ The purpose of this analysis is credit risk is an inherently unbalanced classifi
 
 
 
+
+
+
+
+
+
+* SMOTE Oversampling chart above shows a balanced accuracy score of 63% and recall score for high risk 62% and low risk 654%.
+
+
+
+
+
+
+
+
 * ![Undersampling](https://user-images.githubusercontent.com/93004710/164803744-97853594-8dcd-413d-a055-3c27cd2b2450.png)
+
+
+
+
+
+
+
+* Undersampling chart above shows a balanced accuracy score of 53% and recall score for high risk 61% and low risk 45%.
+
+
 
 
 
@@ -31,7 +75,21 @@ The purpose of this analysis is credit risk is an inherently unbalanced classifi
 
 
 
+
+
+* Easy-Ensemble AdaBooat Classifier chart above shows a balanced accuracy score of 93% and recall score for high risk 91% and low risk 94%.
+
+
+
+
+
 * ![combination-sampling](https://user-images.githubusercontent.com/93004710/164803880-6a4a8a31-8b0b-47e7-be3f-e14d60975be3.png)
+
+
+
+
+
+* Combination sampling (SMOTEENN) chart above shows a balanced accuracy score of 63% and recall score for high risk 71% and low risk 55%.
 
 
 
@@ -41,6 +99,9 @@ The purpose of this analysis is credit risk is an inherently unbalanced classifi
 
 
 
+* Balanced Random Forest Classifier chart above shows a balanced accuracy score of 80% and recall score for high risk 71% and low risk 88%.
+
+
+
 ## Summary: 
-* Summarize the results of the machine learning models
-* include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+*  After reviewing thr machine learning model results it is clear the ensemble models have higher accuracy scores. I recommend using the model with the highest accuracy score, the easy-ensemble-adaboost classifier model.
